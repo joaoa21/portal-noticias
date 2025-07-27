@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+    font-size: 16px;
+    list-style: none;
+}
+
+:root {
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8;
+    --bg-color: #0F172A;
+    --stroke-color: #1E293B;
+    --text-color-primary: #F1F5F9;
+    --text-color-secondary: #CBD5E1;
+}
+
+h1 {
+    color: var(--brand-color-light);
+    font-size: 24px;
+    line-height: 135%;
+    font-weight: 900;
+}
+
+.container {
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
