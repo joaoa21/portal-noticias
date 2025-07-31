@@ -30,8 +30,18 @@
       margin-top: 8px;
 }
 
+figcaption:has(.text-lg) {
+      padding: 12px;
+}
+
 .text-2xl {
       font-size: 24px;
       line-height: 135%;
+      font-weight: 800;
+}
+
+.text-lg {
+      font-size: 14px;
+      line-height: 140%;
       font-weight: 800;
 }
